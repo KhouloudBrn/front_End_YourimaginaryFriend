@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  
+  .buttonBack {margin-left: -1200px;
+    border-radius: 50%;}
+    .butBack{text-decoration: none;}
+  
+  .container {
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+  }
+  
+  .thumbnails {
+    width: 30%;
+    overflow-y: auto;
+  }
+  
+  .thumbnails img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+  
+    transition: transform 0.3s ease;
+  }
+  
+  .thumbnails img:hover {
+    transform: scale(1.05);
+  }
+  .display {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .display img {
+    max-height: 100%;
+    max-width: 100%;
+  
+    border: 1px solid gray;
+  
+    transition: transform 0.3s ease;
+  }
+  .display img:hover {
+    transform: scale(1.05);
+  }
